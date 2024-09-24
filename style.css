@@ -12,7 +12,7 @@
 body, html
 {
     background-color: #000000;
-    background-image: radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
     background-size: 40px 40px;
     color: #ffffff;
     min-height: 100vh;
@@ -95,6 +95,8 @@ footer
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
     max-width: 100%; /* Faz a imagem se ajustar ao tamanho da tela */
     height: auto;
+    border: 2px solid transparent; /* Inicialmente sem borda */
+    transition: all 0.9s ease; /* Transição suave */
 }
 
 #perfil:hover
