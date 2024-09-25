@@ -170,8 +170,27 @@ h3:hover
     max-width: 300px;
 }
 
-.imgSisSol
+img
 {
-    width: 100%;
+    max-width: 300;
+    height: auto;
     
 }
+
+#imgSec
+{
+    max-width: 500px;
+}
+
+#conv
+{
+    display: flex; /* Flexbox para alinhar itens lado a lado */
+    align-items: center; /* Espaça igualmente os itens */
+    gap: 100px;
+}
+
+#mini
+{
+    max-width: 300px;
+}
+
